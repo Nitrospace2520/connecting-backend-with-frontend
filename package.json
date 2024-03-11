@@ -1,0 +1,20 @@
+{
+  "name": "connecting-with-reactjs",
+  "version": "1.0.0",
+  "description": "connecting with reactjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Nir Dhara",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "mongoose": "^8.2.1",
+    "morgan": "^1.10.0"
+  }
+}
