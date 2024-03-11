@@ -1,5 +1,10 @@
+const path = require("path");
 const fs = require("fs");
-const quotesData = fs.readFileSync("./quotes.json", "utf-8");
+
+const quotesData = fs.readFileSync(
+  path.join(__dirname, "..", "quotes.json"),
+  "utf-8"
+);
 const quotes = JSON.parse(quotesData)["quotes"];
 
 //* create
